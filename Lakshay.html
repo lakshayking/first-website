@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        nav {
+            background-color: black;
+            padding: 5px;
+            position: fixed;
+            width: 100vw;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a{
+            color: white;
+            margin: 5px;
+            padding: 5px;
+            text-decoration: none;
+            font: 500;
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+    </style>
+    <nav>
+        <ul>
+            <a class="nav-a" href="#home">Home</a>
+            <a class="nav-a" href="#education">Education</a>
+            <a class="nav-a" href="#contact">Contact</a>
+        </ul>
+    </nav>
+
+    <style>
+        .hero-section {
+            min-height: 70vh;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        div {
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .name {
+            font-size: 100px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .lakshay-img {
+            width: 200px;
+        }
+
+        .hero-para {
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+    <section id="home" class="hero-section">
+        <div class="hero">
+            <div>
+                I am <br> <span class="name">Lakshay</span>
+            </div>
+            <div>
+                <img class="lakshay-img" src="image.jpg" alt="Lakshay">
+            </div>
+        </div>
+        <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis omnis incidunt amet ducimus,
+            itaque eum!
+            Deleniti iste itaque unde esse.</p>
+    </section>
+
+    <style>
+        .education-section {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .school-card-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .edu div h2 {
+            font-size: 70px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .schoolcard {
+            background: rgb(206, 212, 206);
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .schoolcard img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+
+        .schoolcard h3 {
+            font-size: x-large;
+            color: black;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 10px;
+        }
+
+        .schoolcard p {
+            font-size: 15px;
+            color: black;
+            padding: 10px;
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+    </style>
+    <section id="education" class="education-section">
+        <div class="edu">
+            <div>
+                <h2>Education</h2>
+            </div>
+            <div class="school-card-container">
+                <div class="schoolcard">
+                    <img src="image.jpg" alt="Sri Guru Ram Rai">
+                    <h3>KSK ACADEMY</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit cumque itaque similique
+                        ipsam,
+                        necessitatibus deserunt blanditiis quo corporis ea sapiente magnam sunt optio earum sint
+                        repellat
+                        rem. Cum, placeat.</p>
+                </div>
+                <div class="schoolcard">
+                    <img src="image.jpg" alt="Sri Guru Ram Rai">
+                    <h3>SHEMFORD FUTURISTIC SCHOOL</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit cumque itaque similique
+                        ipsam,
+                        necessitatibus deserunt blanditiis quo corporis ea sapiente magnam sunt optio earum sint
+                        repellat
+                        rem. Cum, placeat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .contact-section {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact {
+            width: 500px;
+        }
+
+        .con {
+            font-size: 70px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .con-p {
+            font-size: medium;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 50px;
+            text-align: justify;
+        }
+
+        .address {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .address h4 {
+            font-weight: 500;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .address span {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+    <section id="contact" class="contact-section">
+        <div class="contact">
+            <div class="con">
+                <h2>Contact</h2>
+            </div>
+            <div>
+                <p class="con-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nemo harum? Asperiores
+                    illum
+                    omnis maiores beatae consectetur id modi! A veniam nostrum dolore accusamus ut expedita temporibus
+                    commodi. Laborum, labore?</p>
+            </div>
+            <div class="address">
+                <h4> <span>Village : </span> Dehri Jat</h4>
+                <h4> <span>District : </span>Moradabad</h4>
+                <h4> <span>State : </span>Uttar Pradesh</h4>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
